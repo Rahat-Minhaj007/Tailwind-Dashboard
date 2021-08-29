@@ -18,15 +18,15 @@
 }
 .m5{
     grid-column: span 2;
-    grid-row: span 4;
+    grid-row: span 5;
 }
 .m6{
    
-    grid-row: span 4;
+    grid-row: span 5;
 }
 .m7{
    
-    grid-row: span 6;
+    grid-row: span 7;
 }
 
 .m8{
@@ -46,5 +46,4 @@
     height:90px !important;
     width:90px !important;
 }
-
 

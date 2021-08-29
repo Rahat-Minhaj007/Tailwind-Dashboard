@@ -5,7 +5,7 @@ import 'react-circular-progressbar/dist/styles.css';
 import './CircularProgress.css';
 
 
-const CircularProgress = ({ title, percentage, num1, num2, color,arrow }) => {
+const CircularProgress = ({ title, percentage, num1, num2, color,arrow,pathClr }) => {
 
     return (
         <>
@@ -25,10 +25,10 @@ const CircularProgress = ({ title, percentage, num1, num2, color,arrow }) => {
                 <div>
                     <h1 className="text-4xl">{num1}</h1>
                     <div className="flex items-center pt-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" className={`h-6 w-6 text-${color}-400 `} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" className={`h-6 w-6 text-${color}-600 `} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={`${arrow}`} />
                         </svg>
-                        <h1 className={`text-${color}-400 text-xl`}>{num2}</h1>
+                        <h1 className={`text-${color}-600 text-xl`}>{num2}</h1>
                     </div>
                 </div>
                 <div>
@@ -36,6 +36,26 @@ const CircularProgress = ({ title, percentage, num1, num2, color,arrow }) => {
                     className="circle"
                     value={percentage} 
                     text={`${percentage}%`} 
+                    styles={buildStyles({
+                      
+                       
+                    
+                     
+                    
+                    
+                      
+                        textSize: '16px',
+                    
+                       
+                        
+                    
+                    
+                        // Colors
+                        pathColor: `${pathClr}`,
+                        textColor: `${pathClr}`,
+                        trailColor: '#d6d6d6',
+                        backgroundColor: '#3e98c7',
+                      })}
                     />
                 </div>
             </div>

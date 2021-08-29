@@ -37,20 +37,7 @@ const CircularProgress = ({ title, percentage, num1, num2, color,arrow,pathClr }
                     value={percentage} 
                     text={`${percentage}%`} 
                     styles={buildStyles({
-                      
-                       
-                    
-                     
-                    
-                    
-                      
-                        textSize: '16px',
-                    
-                       
-                        
-                    
-                    
-                        // Colors
+                        textSize: '18px',
                         pathColor: `${pathClr}`,
                         textColor: `${pathClr}`,
                         trailColor: '#d6d6d6',

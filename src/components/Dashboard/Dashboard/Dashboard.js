@@ -1,6 +1,8 @@
 import React from 'react';
 import CampaignButton from '../../CampaignButton/CampaignButton';
+import CampaignStats from '../../CampaignStats/CampaignStats';
 import CircularProgress from '../../CircularProgress/CircularProgress';
+import DoughnutBar from '../../DoughnutBar/DoughnutBar';
 import Notification from '../../Notification/Notification';
 import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
@@ -36,8 +38,12 @@ const Dashboard = () => {
                     <div className="bg-black p-3 rounded-xl m5">5</div>
                     <div className="bg-black p-3 rounded-xl m6">6</div>
                     <div className="bg-black p-3 rounded-xl m7">7</div>
-                    <div className="bg-black p-3 rounded-xl m8">8</div>
-                    <div className="bg-black p-3 rounded-xl m9">9</div>
+                    <div className="bg-black p-3 rounded-xl m8">
+                        <CampaignStats />
+                    </div>
+                    <div className="bg-black p-3 rounded-xl m9">
+                        <DoughnutBar />
+                    </div>
 
                     <div className="bg-black p-3 rounded-xl m10">
                         <CampaignButton />

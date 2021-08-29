@@ -1,0 +1,50 @@
+.main{
+    display:grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: repeat(13,1fr) ;
+    gap:1rem;
+}
+.m1{
+    grid-row: span 3;
+}
+.m2{
+    grid-row: span 3;
+}
+.m3{
+    grid-row: span 3;
+}
+.m4{
+    grid-row: span 4;
+}
+.m5{
+    grid-column: span 2;
+    grid-row: span 4;
+}
+.m6{
+   
+    grid-row: span 4;
+}
+.m7{
+   
+    grid-row: span 6;
+}
+
+.m8{
+    grid-column: span 2;
+    grid-row: span 5;
+}
+
+.m9{
+   
+    grid-row: span 5;
+}
+.m10{
+   
+    grid-row: span 2 ;
+}
+.circle{
+    height:90px !important;
+    width:90px !important;
+}
+
+

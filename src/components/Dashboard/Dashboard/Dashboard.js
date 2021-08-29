@@ -3,7 +3,9 @@ import CampaignButton from '../../CampaignButton/CampaignButton';
 import CampaignStats from '../../CampaignStats/CampaignStats';
 import CircularProgress from '../../CircularProgress/CircularProgress';
 import DoughnutBar from '../../DoughnutBar/DoughnutBar';
+import LineChart from '../../LineChart/LineChart';
 import Notification from '../../Notification/Notification';
+import ProgressBar from '../../ProgressBar/ProgressBar';
 import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
 import './Dashboard.css';
@@ -35,8 +37,12 @@ const Dashboard = () => {
                         <Notification />
                     </div>
 
-                    <div className="bg-black p-3 rounded-xl m5">5</div>
-                    <div className="bg-black p-3 rounded-xl m6">6</div>
+                    <div className="bg-black p-3 rounded-xl m5">
+                        <LineChart />
+                    </div>
+                    <div className="bg-black p-3 rounded-xl m6">
+                        <ProgressBar />
+                    </div>
                     <div className="bg-black p-3 rounded-xl m7">7</div>
                     <div className="bg-black p-3 rounded-xl m8">
                         <CampaignStats />

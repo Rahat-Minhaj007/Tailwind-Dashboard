@@ -32,7 +32,7 @@ const DoughnutBar = () => {
                     </svg>
                 </div>
             </div>
-            <div className="pt-2">
+            <div className="pt-2 ">
                 <Doughnut
                     className="doughnut"
                     data={data}

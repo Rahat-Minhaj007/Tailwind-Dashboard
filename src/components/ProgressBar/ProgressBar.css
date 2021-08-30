@@ -1,0 +1,45 @@
+.bar {
+    background: white;
+    display: block;
+    height: 5px;
+    width: 200px;
+    border-radius: 1px;
+    overflow: hidden;
+}
+
+.bar .progressColor1 {
+    height: 5px;
+    float: left;
+    background: rgba(99, 102, 241);
+}
+.bar .progressColor2{
+    height: 5px;
+    float: left;
+    background: rgba(245, 158, 11);
+}
+
+.bar .progressColor3{
+    height: 5px;
+    float: left;
+    background: rgba(239, 68, 68);
+}
+.bar .progressColor4{
+    height: 5px;
+    float: left;
+    background: rgba(16, 185, 129);
+}
+.b1{
+    width: 80%;
+}
+.b2{
+    width: 60%;
+}
+.b3{
+    width:75%;
+}
+.b4{
+    width:53%;
+}
+.progress li{
+    list-style: none;
+}

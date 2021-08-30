@@ -43,7 +43,9 @@ const Dashboard = () => {
                     <div className="bg-black p-3 rounded-xl m6">
                         <ProgressBar />
                     </div>
-                    <div className="bg-black p-3 rounded-xl m7">7</div>
+                    <div className="bg-black p-3 rounded-xl m7">
+                        
+                    </div>
                     <div className="bg-black p-3 rounded-xl m8">
                         <CampaignStats />
                     </div>

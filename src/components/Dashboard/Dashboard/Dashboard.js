@@ -1,4 +1,5 @@
 import React from 'react';
+import ApplicantsList from '../../ApplicantsList/ApplicantsList';
 import CampaignButton from '../../CampaignButton/CampaignButton';
 import CampaignStats from '../../CampaignStats/CampaignStats';
 import CircularProgress from '../../CircularProgress/CircularProgress';
@@ -44,7 +45,7 @@ const Dashboard = () => {
                         <ProgressBar />
                     </div>
                     <div className="bg-black p-3 rounded-xl m7">
-                        
+                        <ApplicantsList />
                     </div>
                     <div className="bg-black p-3 rounded-xl m8">
                         <CampaignStats />

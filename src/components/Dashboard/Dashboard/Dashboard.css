@@ -57,3 +57,53 @@
     
 }
 
+@media (max-width:768px) {
+    
+    .main{
+        display:grid;
+        grid-template-columns: repeat(2,1fr) ;
+        grid-template-rows: repeat(6,0.5fr) ;
+        gap:1rem;
+    }
+    .m1{
+        grid-row: span 1;
+    }
+    .m2{
+        grid-row: span 1;
+    }
+    .m3{
+        grid-row: span 1;
+    }
+    .m4{
+        grid-row: span 1;
+    }
+    .m5{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .m6{
+       
+        grid-row: span 1;
+    }
+    .m7{
+       
+        grid-row: span 1;
+    }
+    
+    .m8{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    
+    .m9{
+       
+        grid-row: span 1;
+    }
+    .m10{
+       
+        grid-row: span 1 ;
+    }
+ 
+    
+}
+

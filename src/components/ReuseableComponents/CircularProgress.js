@@ -2,7 +2,7 @@ import React from 'react';
 
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import './CircularProgress.css';
+
 
 
 const CircularProgress = ({ title, percentage, num1, num2, color,arrow,pathClr }) => {

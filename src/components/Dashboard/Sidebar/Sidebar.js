@@ -5,7 +5,7 @@ const Sidebar = () => {
     return (
         <>
 
-            <nav className="w-20  justify-between flex flex-col h-screen" style={{ background: "rgba(10,10,10)" }}>
+            <nav className="w-20  justify-between flex flex-col md:h-screen h-auto" style={{ background: "rgba(10,10,10)" }}>
                 <div className="mt-4 mb-10">
                     <a href="/">
                         <img
@@ -141,7 +141,7 @@ const Sidebar = () => {
                 </div>
             </nav>
 
-            <div className="h-screen w-px bg-gray-700 border-solid">
+            <div className="md:h-screen h-auto  w-px bg-gray-700 border-solid">
 
             </div>
 

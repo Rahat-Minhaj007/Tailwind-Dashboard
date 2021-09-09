@@ -2,7 +2,7 @@ import React from 'react';
 import ApplicantsList from '../../ApplicantsList/ApplicantsList';
 import CampaignButton from '../../CampaignButton/CampaignButton';
 import CampaignStats from '../../CampaignStats/CampaignStats';
-import CircularProgress from '../../CircularProgress/CircularProgress';
+ import CircularProgress from '../../ReuseableComponents/CircularProgress.js';
 import DoughnutBar from '../../DoughnutBar/DoughnutBar';
 import LineChart from '../../LineChart/LineChart';
 import Notification from '../../Notification/Notification';
@@ -18,7 +18,7 @@ const Dashboard = () => {
 
             <Sidebar />
 
-            <div className="h-screen w-screen    px-10" style={{ background: "rgba(10,10,10)" }}>
+            <div className="md:h-screen md:w-screen h-auto w-auto   px-10" style={{ background: "rgba(10,10,10)" }}>
                 <Header />
 
                 <div className="main pt-4 text-white">
@@ -27,7 +27,7 @@ const Dashboard = () => {
                         <CircularProgress title="Total Applications" percentage="76" num1={7897} num2={3.76} color={"green"} arrow={"M8 7l4-4m0 0l4 4m-4-4v18"} pathClr={"rgba(5, 150, 105)"} />
                     </div>
                     <div className="bg-black p-3 rounded m2">
-                        <CircularProgress title="Short Listed Candidates" percentage="48" num1={5821} num2={1.76} color={"indigo"} arrow={"M8 7l4-4m0 0l4 4m-4-4v18"} pathClr={"rgba(79, 70, 229)"} />
+                        <CircularProgress  title="Short Listed Candidates" percentage="48" num1={5821} num2={1.76} color={"indigo"} arrow={"M8 7l4-4m0 0l4 4m-4-4v18"} pathClr={"rgba(79, 70, 229)"} />
                     </div>
                     <div className="bg-black p-3 rounded m3">
                         <CircularProgress title="Selected Candidates" percentage="37" num1={1891} num2={0.66} color={"red"} arrow={"M16 17l-4 4m0 0l-4-4m4 4V3"} pathClr={"rgba(220, 38, 38)"} />
